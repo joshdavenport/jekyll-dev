@@ -1,5 +1,5 @@
 {
-  "name": "jekyll-dev",
+  "name": "jekyll-theme-dev",
   "version": "1.0.0",
   "description": "Facilitating easier development of gem-based Jekyll themes",
   "bin": "dist/index.js",
