@@ -22,11 +22,11 @@ export default function run(options: {jekyllPath: string, port: string, liverelo
       const configYaml = fs.readFileSync(`${jekyllPath}/_config.yml`, 'utf8');
       const jekyllConfig: object = yaml.safeLoad(configYaml);
       const themeName = (jekyllConfig as any).theme;
-      const themePath = child_process.execSync(
+      const discoveredThemePath = child_process.execSync(
         `bundle show ${themeName}`,
         { cwd: jekyllPath, encoding: 'utf8' }
       );
-      return themePath.trim();
+      return discoveredThemePath.trim();
     } catch (error) {
       // catch error from `bundle show ...`
       if (error.stdout) {
