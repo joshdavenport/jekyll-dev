@@ -20,6 +20,6 @@ program
 
 run({
   jekyllPath: program.jekyllSite,
-  port: program.port,
-  livereload: program.livereload
+  livereload: program.livereload,
+  port: program.port
 });
