@@ -1,7 +1,7 @@
 {
   "name": "jekyll-dev",
-  "version": "0.0.2",
-  "description": "Developing gem-based jekyll theme with livereload.",
+  "version": "1.0.0",
+  "description": "Facilitating easier development of gem-based Jekyll themes",
   "bin": "dist/index.js",
   "files": [
     "dist"
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arzyu/jekyll-dev.git"
+    "url": "https://github.com/joshdavenport/jekyll-theme-dev"
   },
-  "author": "Arz Yu <arzyu@live.cn> (https://github.com/arzyu)",
-  "homepage": "https://github.com/arzyu/jekyll-dev",
+  "author": "Josh Davenport <josh@joshdavenport.co.uk> (https://github.com/joshdavenport)",
+  "homepage": "https://github.com/joshdavenport/jekyll-theme-dev",
   "keywords": [
     "jekyll",
     "jekyll-theme",
